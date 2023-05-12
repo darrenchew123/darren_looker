@@ -1,0 +1,34 @@
+{
+  "employeeData": [
+    {
+      "job_level": "Entry",
+      "headcount": 50,
+      "new_hires": 10,
+      "leavers": 2
+    },
+    {
+      "job_level": "Mid",
+      "headcount": 35,
+      "new_hires": 8,
+      "leavers": 3
+    },
+    {
+      "job_level": "Senior",
+      "headcount": 25,
+      "new_hires": 5,
+      "leavers": 1
+    },
+    {
+      "job_level": "Management",
+      "headcount": 15,
+      "new_hires": 2,
+      "leavers": 0
+    },
+    {
+      "job_level": "Executive",
+      "headcount": 5,
+      "new_hires": 1,
+      "leavers": 0
+    }
+  ]
+}
