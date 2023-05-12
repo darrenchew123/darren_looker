@@ -12,6 +12,8 @@ const visObject = {
   },
 
   updateAsync: function (data, element, config, queryResponse, details, doneRendering) {
+
+    
     var margin = { top: 20, right: 20, bottom: 30, left: 120 },
       width = 960 - margin.left - margin.right,
       height = 500 - margin.top - margin.bottom;
@@ -30,20 +32,40 @@ const visObject = {
       .append("g")
       .attr("transform",
         "translate(" + margin.left + "," + margin.top + ")");
+    let dataMap = {};
 
-    employeeData = []
-
-    data.forEach(function(d) {
-      employeeData.push(d["employee_data"]);
+    data.forEach(item => {
+        if (!dataMap[item.job_level]) {
+            dataMap[item.job_level] = {
+                job_level: item.job_level,
+                headcount: 0,
+                new_hires: 0,
+                leavers: 0
+            };
+        }
+        
+        if (item.employee_status === 'existing') {
+            dataMap[item.job_level].headcount += 1;
+        } else if (item.employee_status === 'new_hire') {
+            dataMap[item.job_level].new_hires += 1;
+        } else if (item.employee_status === 'leaver') {
+            dataMap[item.job_level].leavers += 1;
+        }
     });
 
-    employeeData = [
-      { job_level: "Entry", headcount: 50, new_hires: 10, leavers: 2 },
-      { job_level: "Mid", headcount: 35, new_hires: 8, leavers: 3 },
-      { job_level: "Senior", headcount: 25, new_hires: 5, leavers: 1 },
-      { job_level: "Management", headcount: 15, new_hires: 2, leavers: 0 },
-      { job_level: "Executive", headcount: 5, new_hires: 1, leavers: 0 }
-    ];
+  let employeeData = Object.values(dataMap);
+
+    // data.forEach(function(d) {
+    //   employeeData.push(d["employee_data"]);
+    // });
+
+    // employeeData = [
+    //   { job_level: "Entry", headcount: 50, new_hires: 10, leavers: 2 },
+    //   { job_level: "Mid", headcount: 35, new_hires: 8, leavers: 3 },
+    //   { job_level: "Senior", headcount: 25, new_hires: 5, leavers: 1 },
+    //   { job_level: "Management", headcount: 15, new_hires: 2, leavers: 0 },
+    //   { job_level: "Executive", headcount: 5, new_hires: 1, leavers: 0 }
+    // ];
 
     const max_value = d3.max(employeeData, function (d) { return d.headcount + d.new_hires + d.leavers; });
 
