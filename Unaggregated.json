@@ -1,0 +1,650 @@
+[
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "leaver"
+    },
+    {
+        "job_level": "Entry",
+        "employee_status": "leaver"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "leaver"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "leaver"
+    },
+    {
+        "job_level": "Mid",
+        "employee_status": "leaver"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Senior",
+        "employee_status": "leaver"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Management",
+        "employee_status": "new_hire"
+    },
+    {
+        "job_level": "Executive",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Executive",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Executive",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Executive",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Executive",
+        "employee_status": "existing"
+    },
+    {
+        "job_level": "Executive",
+        "employee_status": "new_hire"
+    }
+]
