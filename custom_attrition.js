@@ -15,8 +15,8 @@ const visObject = {
 
 
         var margin = {
-                top: 20,
-                right: 20,
+                top: 50,
+                right: 50,
                 bottom: 30,
                 left: 120
             },
@@ -130,29 +130,56 @@ const visObject = {
             })
             .attr("height", y.bandwidth() / 2);
 
-        function addPercentageLabels(bars, property, xOffset) {
+        function addPercentageLabels(bars, property, xOffset, widthFactor) {
             bars.data().forEach((d, i) => {
                 svg.append('text')
-                    .attr('x', x(xOffset(d)) + 5)
+                    .attr('x', x(xOffset(d)) + x(widthFactor(d)) / 2)
                     .attr('y', y(d.job_level) + y.bandwidth() / 4)
                     .attr('font-size', '12px')
+                    .attr('text-anchor', 'middle')
                     .text(((d[property] / total) * 100).toFixed(1) + '%');
             });
         }
 
-        addPercentageLabels(newHiresBars, 'new_hires', d => 0);
-        addPercentageLabels(headcountBars, 'headcount', d => 0.5 - (d.new_hires / total) / 2);
-        addPercentageLabels(leaversBars, 'leavers', d => 1 - d.leavers / total);
+        addPercentageLabels(newHiresBars, 'new_hires', d => 0, d => 0.04);
+        addPercentageLabels(headcountBars, 'headcount', d => 0.5 - (d.headcount / total) / 2, d => d.headcount / total);
+        addPercentageLabels(leaversBars, 'leavers', d => 1 - d.leavers / total, d => d.leavers / total);
 
-        // Add the y Axis
-        svg.append("g")
-            .call(d3.axisLeft(y));
+        const categoryRects = svg.selectAll(".category-rect")
+            .data(employeeData)
+            .enter().append("rect")
+            .attr("class", "category-rect")
+            .attr("style", "fill: #8fa9dc;")
+            .attr("x", -margin.left )
+            .attr("y", function(d) {
+                return y(d.job_level) ;
+            })
+            .attr("width", margin.left)
+            .attr("height", y.bandwidth() / 2);
+
+
+        // Add text labels for each rectangle
+        const categoryLabels = svg.selectAll(".category-label")
+            .data(employeeData)
+            .enter().append("text")
+            .attr("class", "category-label")
+            .attr("x", -margin.left / 2)
+            .attr("y", function(d) {
+                return y(d.job_level) + y.bandwidth() / 4;
+            })
+            .attr("dy", ".35em")
+            .attr("text-anchor", "middle")
+            .attr("style", "fill: black;")
+            .text(function(d) {
+                return d.job_level;
+            });
+        
 
         function addCategoryLabel(xOffset, widthFactor, label) {
             svg.append('text')
                 .attr('x', x(xOffset) + x(widthFactor) / 2)
-                .attr('y', -5)
-                .attr('font-size', '14px')
+                .attr('y', -15)
+                .attr('font-size', '18px')
                 .attr('font-weight', 'bold')
                 .attr('text-anchor', 'middle')
                 .text(label);
