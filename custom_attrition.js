@@ -145,25 +145,27 @@ const visObject = {
         addPercentageLabels(headcountBars, 'headcount', d => 0.5 - (d.headcount / total) / 2, d => d.headcount / total);
         addPercentageLabels(leaversBars, 'leavers', d => 1 - d.leavers / total, d => d.leavers / total);
 
+        const gap = 10;  // Define a gap size, adjust to your needs
+        
         const categoryRects = svg.selectAll(".category-rect")
             .data(employeeData)
             .enter().append("rect")
             .attr("class", "category-rect")
-            .attr("style", "fill: #8fa9dc;")
-            .attr("x", -margin.left )
+            .attr("fill", "none")  // Make the fill clear
+            .attr("stroke", "#8fa9dc")  // Make the border color #8fa9dc
+            .attr("x", -margin.left + gap)  // Add a gap to the left side
             .attr("y", function(d) {
-                return y(d.job_level) ;
+                return y(d.job_level);
             })
-            .attr("width", margin.left)
+            .attr("width", margin.left - 2 * gap)  // Subtract the gap from the width
             .attr("height", y.bandwidth() / 2);
-
-
+        
         // Add text labels for each rectangle
         const categoryLabels = svg.selectAll(".category-label")
             .data(employeeData)
             .enter().append("text")
             .attr("class", "category-label")
-            .attr("x", -margin.left / 2)
+            .attr("x", -margin.left / 2)  // Add a gap to the left side
             .attr("y", function(d) {
                 return y(d.job_level) + y.bandwidth() / 4;
             })
@@ -173,6 +175,7 @@ const visObject = {
             .text(function(d) {
                 return d.job_level;
             });
+
         
 
         function addCategoryLabel(xOffset, widthFactor, label) {
